@@ -3,18 +3,18 @@ html {
 }
 
 .basic-info {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:100%; line-height:1;   
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight:500;
     font-size:90%;
 }
 
 h2 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size: 5em;
 }
@@ -31,23 +31,34 @@ h2 {
 }
 
 .btn-secondary {
-    background-color: #474d4d !important;
+    background-color: #0078D2 !important;
 }
 
 #contact-btn {
-    background-color: #e1ebeb !important;
-    color:black !important;
+    background-color: #C30019 !important;
+    color:white !important;
 }
 
 .hero-box {
-    background-color:#578d8d; 
+    background-color:#36495A; 
     color:white;
     font-weight:bold;
     padding-top:5%
 }
 
+
+
 .profile-image {
-    display:block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    display:flex;
+    vertical-align:middle;
+}
+
+.airline-logo {
+    display:flex;
     margin-left: auto;
     margin-right: auto;
     margin-top:0;
@@ -62,7 +73,7 @@ h2 {
     text-align:center;
     padding-top: 2%;
     padding-bottom:2%;
-    background-color: #578d8d;
+    background-color: #36495A;
     position:sticky;
     top:0;
 }
@@ -76,12 +87,13 @@ h2 {
 .certifications-box {
     text-align:center;
     padding:15%;
+    color: #131313
 }
 
 .time-box {
     text-align:center;
     line-height:2em;
-    background-color: #474d4d;
+    background-color: #9DA6AB;
     color:white;
     font-weight:bold;
     padding-top:2%;
@@ -119,6 +131,7 @@ h2 {
     margin-right: 10%;
     margin-bottom: 15%;
     line-height:2em;
+    color:#121212;
 }
 
 .location {
@@ -128,7 +141,7 @@ h2 {
 .job-title {
     text-decoration: underline;
     padding-bottom: 0.4em;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .job-history {
@@ -136,7 +149,7 @@ h2 {
 }
 
 .education-box {
-    background-color: #578d8d;
+    background-color: #9DA6AB;
     color:white;
     padding:15%;
     line-height:2em;
@@ -152,6 +165,7 @@ h2 {
     text-align:center;
     padding:20%;
     line-height: 3em;
+    color:#131313;
 }
 
 .achievements-box {
@@ -168,7 +182,7 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .footer-box {
-    background-color: #474d4d;
+    background-color: #36495A;
     color:white;
     padding:12%;
 }
