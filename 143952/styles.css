@@ -1,0 +1,257 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.basic-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:100%; line-height:1;   
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size:90%;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 5em;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    padding:2px;
+    margin:3px;
+}
+
+.btn-primary {
+    font-weight:bolder !important;
+    background-color: #d5152e !important;
+    border: none !important;
+}
+
+.btn-secondary {
+    background-color: #ffbf27 !important;
+}
+
+#contact-btn {
+    background-color: #d5152e !important;
+    color:white !important;
+}
+
+.hero-box {
+    background-color:#304cb2; 
+    color:white;
+    font-weight:bold;
+    padding-top:5%
+}
+
+
+
+.profile-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    margin-bottom:10%;
+    display:flex;
+    vertical-align:middle;
+}
+
+.airline-logo {
+    padding-top:0%;
+    padding-bottom:0%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.hero-text-box {
+    text-align:center;
+    line-height:2em;
+}
+
+.button-box {
+    text-align:center;
+    padding-top: 2%;
+    padding-bottom:2%;
+    background-color: #304cb2;
+    position:sticky;
+    top:0;
+}
+
+#contact-btn {
+    font-weight:bold;
+    vertical-align: bottom;
+    border:none;
+    }
+
+.certifications-box {
+    text-align:center;
+    padding:15%;
+    color: #131313
+}
+
+.time-box {
+    text-align:center;
+    line-height:2em;
+    background-color: #ffbf27;
+    color:white;
+    font-weight:bold;
+    padding-top:2%;
+}
+
+.time-details {
+    text-align:left;
+    line-height:2em;
+    padding-top:5%;
+}
+
+.aircraft-box {
+    text-align:center;
+    padding:2%;
+}
+
+.modal-title {
+    color:black;
+}
+
+.modal-body {
+    color:black;
+}
+
+.aircraft-picture {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.experience-box {
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    line-height:2em;
+    color:rgb(54,54,54);
+}
+
+.location {
+    line-height: 1.5em;
+}
+
+.job-title {
+    text-decoration: underline;
+    padding-bottom: 0.4em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.job-history {
+    line-height: 1.5em;
+}
+
+.education-box {
+    background-color: #e7e6e6;
+    color:rgb(54,54,54);
+    padding:15%;
+    line-height:2em;
+    text-align:center;
+}
+
+.inner-education-box {
+    padding-top:3%;
+    text-align:left;
+}
+
+.achievements-interests-box {
+    text-align:center;
+    padding:20%;
+    line-height: 3em;
+    color:#131313;
+}
+
+.achievements-box {
+    text-align:center;
+}
+
+.interests-box {
+    text-align:center;
+}
+
+a:link, a:hover, a:visited, a:active {
+    color:white !important;
+    text-decoration-color: lightgrey;  
+}
+
+.footer-box {
+    background-color: #304cb2;
+    color:white;
+    padding:12%;
+}
+
+.contact-me {
+    padding:5%;
+    text-align: left;
+}
+
+.address-info {
+    line-height: 1.7em;
+    padding-top:5%;
+}
+
+.availability {
+    line-height: 1.7em;
+    padding-top:15%;
+}
+
+#certificate-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 5%;
+}
+
+#timer-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 5%;
+}
+
+#airplane-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 5%;
+}
+
+#experience-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 2%;
+}
+
+#education-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 2%;
+}
+
+#achievements-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 2%;
+}
+
+#interests-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 2%;
+}
